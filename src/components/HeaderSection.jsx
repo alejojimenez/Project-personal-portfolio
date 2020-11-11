@@ -9,20 +9,22 @@ import './HeaderSection.css';
 const HeaderSection = (props) => {
 
     return (
-        <Jumbotron className = "styleJumbotron shadow p-3 mb-5 bg-white rounded">
+        <Jumbotron className = "styleJumbotron shadow-sm p-3 mb-5 bg-white rounded">
             <Row>
-                <Col sm={4}>
-                    <Image src="./images/avatars.png" roundedCircle />
+                <Col sm={6}>
+                    <Row>
+                        <Image className = "image-headerSection" src="https://149351115.v2.pressablecdn.com/wp-content/uploads/2020/02/iStock-1163542789-945x630.jpg" />
+                    </Row>
                     <Row className = "icons-position">
-                        <Col sm={1}>
+                        <Col sm={12}>
                             <FaGithub />
-                        </Col>
-                        <Col sm={1}>                
                             <FaLinkedinIn />
                         </Col>
                     </Row>                    
                 </Col>
-                <Col sm={8}>
+                <Col sm={6}>
+                    <br></br>
+                    <br></br>
                     <h1>
                         {props.regars}
                     </h1>
@@ -35,13 +37,11 @@ const HeaderSection = (props) => {
                         </u>
                     </h2>
                     <br></br>
-                    <br></br>
                     <p>
-                        <Button variant="primary">Contactame</Button>
+                        <Button variant="primary">Contacto</Button>
                     </p>
                 </Col>
             </Row>
-            <br></br>
         </Jumbotron>
     )
 }

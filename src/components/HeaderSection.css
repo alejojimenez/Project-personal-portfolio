@@ -1,18 +1,23 @@
 .styleJumbotron {
-    margin-top: 15px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
    
 }
 
 .personal-brand-1 {
     font-family: 'Pacifico', cursive;
-    font-size: 35px;
+    font-size: 45px;
     text-underline-position: auto;
     text-shadow: grey 0.1em 0.1em 0.2em;
 }
 
 .icons-position {
     text-align: center;
+}
+
+.image-headerSection {
+    width: 100%;
+    height: 100%;
 }
   

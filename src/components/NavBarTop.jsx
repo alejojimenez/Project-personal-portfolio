@@ -1,20 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {Image, Navbar, Nav} from 'react-bootstrap';
+import {Navbar, Nav} from 'react-bootstrap';
 import './NavBarTop.css';
 
 const NavBarTop = () => {
 
     return (
         <>
-            {/* <Image src="" fluid /> */}
-            <Navbar className = "navbar-fixed-top menu-navbar-top" bg="primary" variant="dark">
-                <Navbar.Brand className = "personal-brand" href="#home">Alejo Jiménez</Navbar.Brand>
-                <Nav className="navbar-inner ml-auto" variant="tabs">
-                    <Link className = "nav-link" to = '/acerca-de-mi' >Acerca de mí</Link>
+            <Navbar className = "shadow p-3 mb-5 bg-white rounded fixed-top" bg="light" variant="primary">
+                <Navbar.Brand className = "personal-brand" href="/">Alejo Jiménez</Navbar.Brand>
+                <Nav className="navbar-inner ml-auto" >
+                    <Link className = "nav-link" to = '/inicio' >Inicio</Link>
+                    <Link className = "nav-link" to = '/acerca-de' >Acerca de</Link>
                     <Link className = "nav-link" to = '/proyectos' >Proyectos</Link>
-                    <Link className = "nav-link" to = '/conocimientos-y-educacion' >Conocimientos y Educación</Link>
-                    <Link className = "nav-link" to = '/contactame' >Contactame</Link>
+                    <Link className = "nav-link" to = '/formacion' >Formacion</Link>
+                    <Link className = "nav-link" to = '/contacto' >Contacto</Link>
                 </Nav>
             </Navbar>
         </>

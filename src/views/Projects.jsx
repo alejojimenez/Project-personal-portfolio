@@ -1,6 +1,6 @@
 import React from 'react';
 import HeaderSection from '../components/HeaderSection';
-import {Row, Card, CardDeck, Button} from 'react-bootstrap';
+import {Card, CardDeck, Button} from 'react-bootstrap';
 import './Projects.css';
 
 const Projects = () => {
@@ -12,7 +12,7 @@ const Projects = () => {
                 name = 'Alexander José Jiménez'
                 title = 'Desarrollador Web Full Stack Junior'
             />
-            <div className = "color-background shadow p-3 mb-5">
+            <div className = "color-background shadow-sm p-3 mb-5">
                 {/* Proyectos educativos realizados en academias */}
                 <h2 className = "position-left">Proyectos Educativos</h2>
                 <div className = "linea"></div>

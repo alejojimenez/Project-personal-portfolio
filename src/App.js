@@ -19,16 +19,13 @@ const App = () => {
             <NavBarTop />
           </Col>
         </Row>
-        <Row>
-          <Col>
-            <Switch>
-              <Route exact path = '/' component = {Home} />
-              <Route exact path = '/acerca-de-mi' component = {AboutMe} />
-              <Route exact path = '/proyectos' component = {Projects} />
-              {/* <Route render = {NotFound} /> */}
-            </Switch>
-          </Col>
-        </Row>
+        <Switch>
+          <Route exact path = '/' component = {Home} />
+          <Route exact path = '/inicio' component = {Home} />              
+          <Route exact path = '/acerca-de' component = {AboutMe} />
+          <Route exact path = '/proyectos' component = {Projects} />
+          {/* <Route render = {NotFound} /> */}
+        </Switch>
       </BrowserRouter>
     </Container>
   );
