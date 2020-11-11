@@ -1,25 +1,36 @@
-import React from 'react'
-//import logo from './logo.svg';
-//import './App.css';
+import React from 'react';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import NavBarTop from './components/NavBarTop';
+import { Container, Row, Col } from 'react-bootstrap';
+import './App.css';
 
-function App() {
+//secciones 
+import Home from './views/Home';
+import AboutMe from './views/AboutMe';
+import Projects from './views/Projects';
+//import Tasks from './views/Tasks';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container className = "body-style">
+      <BrowserRouter>
+        <Row>
+          <Col>
+            <NavBarTop />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Switch>
+              <Route exact path = '/' component = {Home} />
+              <Route exact path = '/acerca-de-mi' component = {AboutMe} />
+              <Route exact path = '/proyectos' component = {Projects} />
+              {/* <Route render = {NotFound} /> */}
+            </Switch>
+          </Col>
+        </Row>
+      </BrowserRouter>
+    </Container>
   );
 }
 

@@ -1,0 +1,20 @@
+.menu-navbar-top {
+    margin-top: 10px;
+}
+
+.personal-brand {
+    font-family: 'Pacifico', cursive;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+
+.navbar-inner {
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.nav-link {
+    color: turquoise;
+}
+
+Link {
+    color: white;
+}
