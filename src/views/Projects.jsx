@@ -69,7 +69,7 @@ const Projects = () => {
                 <div className = "linea"></div>
                 <CardDeck>
                     <Card border="light" style={{ width: '25rem' }} className="col-md-10 shadow p-3 mb-5">
-                        <Card.Img variant="top" src="https://lh3.googleusercontent.com/proxy/irMkChzZjVSPWtEa0MOjUknc8v9jMByBLKSNdvsYU2l9tc0LV5jEabeclnFOjetPQ5AGJC8wS9oFDHm7vYk63Frp6WtzY2rF-G6F-I_xMyqpKyE7BOj1WzP8AVvD1zvQplSf22cgDN_suGPVMv4D1w" />
+                        <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_t_J_rz1_nlxpUgXtOUtWcqO4Cq5FUxO5hg&usqp=CAU" />
                         <Card.Body>
                             <Card.Title>Proyecto # 1</Card.Title>
                             <Card.Text>
@@ -95,7 +95,7 @@ const Projects = () => {
                         </Card.Body>
                     </Card>
                     <Card border="light" style={{ width: '25rem' }} className="col-md-10 shadow p-3 mb-5">
-                        <Card.Img variant="top" src="https://lh3.googleusercontent.com/proxy/irMkChzZjVSPWtEa0MOjUknc8v9jMByBLKSNdvsYU2l9tc0LV5jEabeclnFOjetPQ5AGJC8wS9oFDHm7vYk63Frp6WtzY2rF-G6F-I_xMyqpKyE7BOj1WzP8AVvD1zvQplSf22cgDN_suGPVMv4D1w" />
+                        <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_t_J_rz1_nlxpUgXtOUtWcqO4Cq5FUxO5hg&usqp=CAU" />
                         <Card.Body>
                             <Card.Title>Proyecto # 3</Card.Title>
                             <Card.Text>

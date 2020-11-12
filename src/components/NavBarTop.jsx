@@ -10,7 +10,7 @@ const NavBarTop = () => {
     return (
         <>  
             <header className = "image-navbar">
-                <Navbar clasName = "navbar navbar-light" bg="light" variant="light">
+                <Navbar clasName = "navbar navbar-light" bg="light" variant="dark">
                     <Navbar.Brand className = "personal-brand" href="/">Alejo Jiménez</Navbar.Brand>
                     <Nav className = "navbar m-auto navbar-inner">
                         <Link className = "nav-item active nav-link" to = '/inicio' >Inicio</Link>
