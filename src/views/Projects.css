@@ -17,3 +17,6 @@
     margin: 10px auto 15px auto;    
 }
 
+.image-card {
+    background-size: cover;
+}

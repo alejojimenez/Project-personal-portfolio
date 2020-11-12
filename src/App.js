@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import NavBarTop from './components/NavBarTop';
 import { Container, Row, Col } from 'react-bootstrap';
 import './App.css';
 
@@ -16,14 +15,12 @@ const App = () => {
       <BrowserRouter>
         <Row>
           <Col>
-            <NavBarTop />
+            <Home />
           </Col>
         </Row>
         <Switch>
-          <Route exact path = '/' component = {Home} />
-          <Route exact path = '/inicio' component = {Home} />              
-          <Route exact path = '/acerca-de' component = {AboutMe} />
-          <Route exact path = '/proyectos' component = {Projects} />
+          <Route exact path = '/quien-soy/' component = {AboutMe} />
+          <Route exact path = '/proyectos/' component = {Projects} />
           {/* <Route render = {NotFound} /> */}
         </Switch>
       </BrowserRouter>

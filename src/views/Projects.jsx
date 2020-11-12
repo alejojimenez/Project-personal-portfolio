@@ -1,5 +1,4 @@
 import React from 'react';
-import HeaderSection from '../components/HeaderSection';
 import {Card, CardDeck, Button} from 'react-bootstrap';
 import './Projects.css';
 
@@ -7,18 +6,13 @@ const Projects = () => {
 
     return (
         <>
-            <HeaderSection 
-                regars = 'Hola, yo soy' 
-                name = 'Alexander José Jiménez'
-                title = 'Desarrollador Web Full Stack Junior'
-            />
             <div className = "color-background shadow-sm p-3 mb-5">
                 {/* Proyectos educativos realizados en academias */}
                 <h2 className = "position-left">Proyectos Educativos</h2>
                 <div className = "linea"></div>
                 <CardDeck>
                     <Card border="light" style={{ width: '25rem' }} className="col-md-10 shadow p-3 mb-5">
-                        <Card.Img variant="top" src="https://servicities.com/blog/wp-content/uploads/2016/05/7-problemas-de-gesti%C3%B3n-empresarial-en-PYMEs.jpg" />
+                        <Card.Img className = "image-card" variant="top" src="https://servicities.com/blog/wp-content/uploads/2016/05/7-problemas-de-gesti%C3%B3n-empresarial-en-PYMEs.jpg" />
                         <Card.Body>
                             <Card.Title>Proyecto # 1</Card.Title>
                             <Card.Text>

@@ -1,6 +1,5 @@
 import React from 'react';
-import {Jumbotron, Col, Row} from 'react-bootstrap';
-import Image from 'react-bootstrap/Image'
+import {Jumbotron, Row} from 'react-bootstrap';
 import {Button} from 'react-bootstrap';
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa';
 
@@ -9,25 +8,12 @@ import './HeaderSection.css';
 const HeaderSection = (props) => {
 
     return (
-        <Jumbotron className = "styleJumbotron shadow-sm p-3 mb-5 bg-white rounded">
+        <Jumbotron className = "styleJumbotron">
             <Row>
-                <Col sm={6}>
-                    <Row>
-                        <Image className = "image-headerSection" src="https://149351115.v2.pressablecdn.com/wp-content/uploads/2020/02/iStock-1163542789-945x630.jpg" />
-                    </Row>
-                    <Row className = "icons-position">
-                        <Col sm={12}>
-                            <FaGithub />
-                            <FaLinkedinIn />
-                        </Col>
-                    </Row>                    
-                </Col>
-                <Col sm={6}>
-                    <br></br>
-                    <br></br>
-                    <h1>
+                <div className = "col-12">
+                    <h2>
                         {props.regars}
-                    </h1>
+                    </h2>
                     <p className = "personal-brand-1">
                         {props.name}
                     </p>
@@ -36,11 +22,15 @@ const HeaderSection = (props) => {
                             {props.title}
                         </u>
                     </h2>
-                    <br></br>
+                    <br />
                     <p>
                         <Button variant="primary">Contacto</Button>
+                        <div className = "icons-position col-12">
+                            <FaGithub /> {' '}
+                            <FaLinkedinIn />
+                        </div>
                     </p>
-                </Col>
+                </div>
             </Row>
         </Jumbotron>
     )
