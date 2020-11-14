@@ -7,7 +7,7 @@ const AboutMe = () => {
 
     return (
         <>
-            <Card className = "color-background shadow-sm p-3 mb-5 bg-white rounded" style={{ width: '100%' }}>
+            <Card className="col-md-12 border-0 shadow p-3 mb-5">
                 <Row>
                     <div className = "col-sm-6">
                         <Card.Body>

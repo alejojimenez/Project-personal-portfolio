@@ -1,15 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import HeaderSection from './HeaderSection';
 import {Navbar, Nav} from 'react-bootstrap';
 import './NavBarTop.css';
+
+// Secciones
+import HeaderSection from './HeaderSection';
 
 const NavBarTop = () => {
 
     return (
         <>  
-            <header className = "image-navbar">
+            <header className = "image-navbar shadow-sm p-3 mb-5">
                 <Navbar clasName = "navbar navbar-light" bg="light" variant="dark">
                     <Navbar.Brand className = "personal-brand" href="/">Alejo Jiménez</Navbar.Brand>
                     <Nav className = "navbar m-auto navbar-inner">
@@ -25,6 +27,7 @@ const NavBarTop = () => {
                     name = 'Alexander José Jiménez'
                     title = 'Desarrollador Web Full Stack Junior'
                 />
+
             </header>
         </>
     )

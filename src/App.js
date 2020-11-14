@@ -7,7 +7,8 @@ import './App.css';
 import Home from './views/Home';
 import AboutMe from './views/AboutMe';
 import Projects from './views/Projects';
-//import Tasks from './views/Tasks';
+import Skills from './views/Skills';
+import Contact from './views/Contact';
 
 const App = () => {
   return (
@@ -21,6 +22,8 @@ const App = () => {
         <Switch>
           <Route exact path = '/quien-soy/' component = {AboutMe} />
           <Route exact path = '/proyectos/' component = {Projects} />
+          <Route exact path = '/formacion/' component = {Skills} />
+          <Route exact path = '/contacto/' component = {Contact} />
           {/* <Route render = {NotFound} /> */}
         </Switch>
       </BrowserRouter>
