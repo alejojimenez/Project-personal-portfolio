@@ -8,7 +8,7 @@ const Contact = () => {
 
     return (
         <>
-                    <Card className="col-md-12 border-0 shadow p-3 mb-5">
+                    <Card className="col-md-12 border-0 shadow-sm p-3 mb-1">
                         <Row>
                             <Col md="6">
                                 <h1>Contactame</h1>

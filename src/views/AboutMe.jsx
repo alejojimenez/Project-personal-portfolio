@@ -8,7 +8,7 @@ const AboutMe = () => {
 
     return (
         <>
-            <Card className="col-md-12 border-0 shadow p-3 mb-5">
+            <Card className="col-md-12 border-0 shadow-sm p-3 mb-1">
                 <Row>
                     <div className = "col-sm-6">
                         <Card.Body>

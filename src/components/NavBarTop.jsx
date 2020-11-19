@@ -12,8 +12,8 @@ const NavBarTop = () => {
 
     return (
         <>  
-            <Container fluid>
-                <Navbar clasName = "navbar navbar-light shadow-sm p-3" bg="dark" variant="dark">
+            {/* <Container fluid> */}
+                <Navbar clasName = "navbar navbar-light shadow-sm p-3 mb-1" bg="dark" variant="dark">
                     <Navbar.Brand className = "personal-brand" href="/">Alejo Jiménez</Navbar.Brand>
                     <Nav className = "navbar ml-auto navbar-inner">
                         <Link className = "nav-item active nav-link" to = '/inicio' >Inicio</Link>
@@ -29,7 +29,7 @@ const NavBarTop = () => {
                     title1 = 'Desarrollador Web'
                     title2 = 'Full Stack Junior'
                 />
-            </Container>
+            {/* </Container> */}
         </>
     )
 }

@@ -22,7 +22,7 @@ const styles = {
 const HeaderSection = (props) => {
 
     return (
-        <div className = "color-background shadow-sm mb-5">
+        <div className = "color-background shadow-sm p-3 mb-1">
             <Row>
                 <Col sm={6}>
                     <Row>

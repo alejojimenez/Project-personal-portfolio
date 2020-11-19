@@ -7,7 +7,7 @@ const Skills = () => {
 
     return (
         <>
-            <div className = "color-background shadow-sm p-3 mb-5">
+            <div className = "color-background shadow-sm p-3 mb-1">
                 {/* Formación, Habilidades y Conocimientos  */}
                 <h2 className = "position-left">Proyectos Educativos</h2>
                 <div className = "linea"></div>
