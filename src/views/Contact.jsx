@@ -1,7 +1,8 @@
 import React from 'react';
 import {Card, Row, Col, Button} from 'react-bootstrap';
 import {FaGithub, FaLinkedinIn, FaWhatsapp, FaEnvelope} from 'react-icons/fa';
-import './Contact.css';
+// import './Contact.css';
+import '../App.css';
 
 const Contact = () => {
 

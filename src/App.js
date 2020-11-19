@@ -9,6 +9,7 @@ import AboutMe from './views/AboutMe';
 import Projects from './views/Projects';
 import Skills from './views/Skills';
 import Contact from './views/Contact';
+import Footer from './views/Footer';
 
 const App = () => {
   return (
@@ -26,6 +27,11 @@ const App = () => {
           <Route exact path = '/contacto/' component = {Contact} />
           {/* <Route render = {NotFound} /> */}
         </Switch>
+        <Row>
+          <Col>
+            <Footer />
+          </Col>
+        </Row>
       </BrowserRouter>
     </Container>
   );

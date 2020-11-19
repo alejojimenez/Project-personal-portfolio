@@ -1,7 +1,8 @@
 import React from 'react';
 import {Image, Card, Button, Row} from 'react-bootstrap';
 import {FaWhatsapp, FaEnvelope} from 'react-icons/fa';
-import './AboutMe.css';
+// import './AboutMe.css';
+import '../App.css';
 
 const AboutMe = () => {
 
