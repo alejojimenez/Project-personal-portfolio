@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col, Image, Button } from 'react-bootstrap';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-// import './HeaderSection.css';
+import avatars from '../images/avatars.png';
 import '../App.css';
 
 const styles = {
@@ -27,7 +27,7 @@ const HeaderSection = (props) => {
                 <Col sm={6}>
                     <Row>
                         <Col sm={12}>
-                            <Image src="https://us.123rf.com/450wm/kritchanut/kritchanut1406/kritchanut140600114/29213224-hombre-foto-de-perfil-silueta-avatar.jpg?ver=6" style={styles.cardImage} />
+                            <Image src={avatars} alt="Alejo Jimenez" style={styles.cardImage}/>   
                         </Col>                        
                         <div className = "icons-position col-12">
                             <FaGithub /> {' '}

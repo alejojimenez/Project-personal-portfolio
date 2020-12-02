@@ -1,7 +1,7 @@
 import React from 'react';
 import {Image, Card, Button, Row} from 'react-bootstrap';
 import {FaWhatsapp, FaEnvelope} from 'react-icons/fa';
-// import './AboutMe.css';
+import aboutMe from '../images/image_about_me.jpg';
 import '../App.css';
 
 const AboutMe = () => {
@@ -36,7 +36,7 @@ const AboutMe = () => {
                     </div>
                     <div className = "col-sm-6">
                         <Row>
-                            <Image className = "image-aboutMe" variant="right" src="https://images.idgesg.net/images/article/2020/03/cso_user_laptop_binary_code_coding_programming_development_by_metamorworks_gettyimages-1092965422_2400x1600-100835431-large.jpg" />
+                            <Image className = "image-aboutMe" variant="right" src={aboutMe} alt="Acerca de mi" />
                         </Row>
                         <div className = "icons-position col-12">
                             <FaWhatsapp /> {' '}

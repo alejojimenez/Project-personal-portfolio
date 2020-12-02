@@ -1,6 +1,6 @@
 import React from 'react';
 import {Card, CardDeck, Button} from 'react-bootstrap';
-// import './Projects.css';
+
 import '../App.css';
 
 const Projects = () => {

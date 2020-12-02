@@ -17,16 +17,16 @@ const NavBarTop = () => {
                     <Navbar.Brand className = "personal-brand" href="/">Alejo Jiménez</Navbar.Brand>
                     <Nav className = "navbar ml-auto navbar-inner">
                         <Link className = "nav-item active nav-link" to = '/inicio' >Inicio</Link>
-                        <Link className = "nav-item nav-link" to = '/quien-soy/' >Quien soy</Link>
-                        <Link className = "nav-item nav-link" to = '/proyectos/' >Proyectos</Link>
-                        <Link className = "nav-item nav-link" to = '/formacion/' >Formación</Link>
-                        <Link className = "nav-item nav-link" to = '/contacto/' >Contacto</Link>
+                        <Link className = "nav-item nav-link" href="#AboutMe" to = '/quien-soy/' >Quien soy</Link>
+                        <Link className = "nav-item nav-link" href="#Projects" to = '/proyectos/' >Proyectos</Link>
+                        <Link className = "nav-item nav-link" href="#Skills" to = '/formacion/' >Formación</Link>
+                        <Link className = "nav-item nav-link" href="#Contact" to = '/contacto/' >Contacto</Link>
                     </Nav>
                 </Navbar>
                 <HeaderSection 
                     regars = 'Hola, yo soy' 
                     name = 'Alexander José Jiménez'
-                    title1 = 'Desarrollador Web'
+                    title1 = '  Desarrollador'
                     title2 = 'Full Stack Junior'
                 />
             {/* </Container> */}
