@@ -1,6 +1,6 @@
 import React from 'react';
-import {Image, Card, Button, Row} from 'react-bootstrap';
-import {FaWhatsapp, FaEnvelope} from 'react-icons/fa';
+import { Image, Card, Button, Row } from 'react-bootstrap';
+import { FaWhatsapp, FaEnvelope } from 'react-icons/fa';
 import aboutMe from '../images/image_about_me.jpg';
 import '../App.css';
 
@@ -9,7 +9,7 @@ const AboutMe = () => {
     return (
         <>  
         <div id="quien-soy">
-            <Card className="col-md-12 border-0 shadow-sm p-3 mb-1">
+            <Card className="col-md-12 shadow p-3 mb-3 rounded">
                 <Row>
                     <div className = "col-sm-6">
                         <Row>
@@ -60,14 +60,14 @@ const AboutMe = () => {
                                 </p> */}
                                 <p>
                                     Para ser sincero, aprendí mucho y también coordine, ejecute y liderice muy buenos
-                                    proyectos, pero decidí volver a mis inicios, esta vez con nuevas y potentes tecnologías.
+                                    proyectos, pero decidí volver a mis inicios, esta vez con nuevas y potentes tecnologíascd pasar.
                                 </p>
                                 <p>
                                     Es por ello que te muestro en este Portafolio, un poco de mis trabajos.  
                                     Espero que lo que observe aquí, te ilustre un poco lo que soy capaz de hacer.
                                 </p>
                             </Card.Text>
-                            <Button variant="primary">Download CV</Button>
+                            <Button className = "btn-custom-color">Download CV</Button>
                         </Card.Body>
                     </div>
                 </Row>

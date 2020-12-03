@@ -1,10 +1,14 @@
-.body {
-  background-color:#e9e8e8;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300;400&display=swap');
+
+body {
+  background-color: #e9e8e8 !important;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 .body-style {
+  font-family: 'Fira Sans', sans-serif;
   text-align: center;
-  background-color:#e9e8e8;
+  background-color:#e9e8e8 !important;
   width: 100%;
   height: 100%;
 }
@@ -15,7 +19,7 @@ nav.navbar {
 
 .color-background {
   top: 20px;
-  background-color: white;
+  background-color: #e9e8e8;
 }
 
 .image-aboutMe {
@@ -36,12 +40,8 @@ nav.navbar {
   margin-top: 10px;
 }
 
-.color-background {
-  background-color: white;
-}
-
 .linea {
-  border-top: 1px solid rgb(226, 224, 224);
+  border-top: 1px solid rgb(124, 122, 122);
   height: 2px;
   max-width: auto;
   padding: 0;
@@ -69,13 +69,6 @@ img .image-card {
 }
 
 /* NavBarTop - Menu  */
-
-/* .personal-brand {
-  font-family: 'Pacifico', cursive;
-  color:  whitesmoke !important;
-  font-size: 25px;
-  text-shadow: gray 0.1em 0.1em 0.2em;
-} */
 
 .nav a:hover {
   color: #522076 !important;
@@ -135,11 +128,11 @@ img .image-card {
     background-repeat: no-repeat;
     background-size: cover;
     height: 350px;
-    margin-top: 65px;
+    margin-top: 0px;
   }
 
   .header-position {
-    margin-top: 100px;
+    margin-top: 70px;
   }
 
   .text-image-navbar {
@@ -157,16 +150,9 @@ img .image-card {
     background-size: cover;
     height: 900px;
     margin-top: 65px;
+    padding: 0px;
   }
 }
-
-/* .image-navbar {
-  background: url(images/image_header.jpg) no-repeat center;  
-  height: 70%;
-  width: 70%;
-  background-size: cover;
-  min-height: 100vh;
-} */
 
 .image-navbar .navbar {
   background-color: transparent !important;
@@ -177,8 +163,17 @@ img .image-card {
 }
 
 /* Footer - Pie de pagina */
-
 .sticky-footer {
   flex-shrink: none;
   background-color: #1f2450;
+  color: #1f2450;
+}
+
+/* Color botones en general */
+.btn-custom-color {
+  border-color: #1f2450;
+  background: #1f2450;
+  color: whitesmoke;
+  border-radius: 3px;
+  padding: 5px 10px;
 }

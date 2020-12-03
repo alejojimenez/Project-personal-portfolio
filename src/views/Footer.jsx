@@ -6,7 +6,7 @@ function Footer() {
     return (
       <>
         <footer className="sticky-footer py-3 text-white" >
-          <Container className="text-center" fluid="lg">
+          <Container className="text-center">
             <small>Copyright &copy; Built by Alejojimenez 2020</small>
           </Container>
         </footer>

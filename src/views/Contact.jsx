@@ -8,7 +8,7 @@ const Contact = () => {
 
     return (
         <>
-                    <Card className="col-md-12 border-0 shadow-sm p-3 mb-1">
+                    <Card className="col-md-12 shadow p-3 mb-3 rounded">
                         <Row>
                             <Col md="6">
                                 <h1>Contactame</h1>
@@ -45,8 +45,8 @@ const Contact = () => {
                                     </label>
                                     <textarea type="text" id="defaultFormContactMessageEx" className="form-control" rows="3" />
                                     <div className="text-center mt-4">
-                                    <Button color="warning" outline type="submit">
-                                        Send
+                                    <Button className = "btn-custom-color" type="submit">
+                                        Enviar
                                         {/* <Icon far icon="paper-plane" className="ml-2" /> */}
                                     </Button>
                                     </div>

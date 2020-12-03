@@ -7,7 +7,7 @@ const Projects = () => {
 
     return (
         <>
-            <div className = "color-background shadow-sm p-3 mb-1">
+            <div className = "color-background shadow p-3 mb-3 rounded">
                 {/* Proyectos educativos realizados en academias */}
                 <h2 className = "position-left">Proyectos Educativos</h2>
                 <div className = "linea"></div>
@@ -22,7 +22,7 @@ const Projects = () => {
                                     the card's content.
                                 </p>
                             </Card.Text>
-                            <Button variant="primary">Detalles</Button>
+                            <Button className = "btn-custom-color">Detalles</Button>
                         </Card.Body>
                     </Card>
                     <Card border="light" className="col-md-10 shadow p-3 mb-5">
@@ -35,7 +35,7 @@ const Projects = () => {
                                     the card's content.
                                 </p>
                             </Card.Text>
-                            <Button variant="primary">Detalles</Button>
+                            <Button className = "btn-custom-color">Detalles</Button>
                         </Card.Body>
                     </Card>
                     <Card border="light" className="col-md-10 shadow p-3 mb-5">
@@ -48,7 +48,7 @@ const Projects = () => {
                                     the card's content.
                                 </p>
                             </Card.Text>
-                            <Button variant="primary">Detalles</Button>
+                            <Button className = "btn-custom-color">Detalles</Button>
                         </Card.Body>
                     </Card>
                     <Card border="light" className="col-md-10 shadow p-3 mb-5">
@@ -61,7 +61,7 @@ const Projects = () => {
                                     the card's content.
                                 </p>
                             </Card.Text>
-                            <Button variant="primary">Detalles</Button>
+                            <Button className = "btn-custom-color">Detalles</Button>
                         </Card.Body>
                     </Card>
                 </CardDeck>
@@ -79,7 +79,7 @@ const Projects = () => {
                                     the card's content.
                                 </p>
                             </Card.Text>
-                            <Button variant="primary">Detalles</Button>
+                            <Button className = "btn-custom-color">Detalles</Button>
                         </Card.Body>
                     </Card>
                     <Card border="light" className="col-md-10 shadow p-3 mb-5">
@@ -92,7 +92,7 @@ const Projects = () => {
                                     the card's content.
                                 </p>
                             </Card.Text>
-                            <Button variant="primary">Detalles</Button>
+                            <Button className = "btn-custom-color">Detalles</Button>
                         </Card.Body>
                     </Card>
                     <Card border="light" className="col-md-10 shadow p-3 mb-5">
@@ -105,7 +105,7 @@ const Projects = () => {
                                     the card's content.
                                 </p>
                             </Card.Text>
-                            <Button variant="primary">Detalles</Button>
+                            <Button className = "btn-custom-color">Detalles</Button>
                         </Card.Body>
                     </Card>
                     <Card border="light" className="col-md-10 shadow p-3 mb-5">
@@ -118,7 +118,7 @@ const Projects = () => {
                                     the card's content.
                                 </p>
                             </Card.Text>
-                            <Button variant="primary">Detalles</Button>
+                            <Button className = "btn-custom-color">Detalles</Button>
                         </Card.Body>
                     </Card>
                 </CardDeck>
@@ -136,7 +136,7 @@ const Projects = () => {
                                     the card's content.
                                 </p>
                             </Card.Text>
-                            <Button variant="primary">Detalles</Button>
+                            <Button className = "btn-custom-color">Detalles</Button>
                         </Card.Body>
                     </Card>
                     <Card border="light" className="col-md-10 shadow p-3 mb-5">
@@ -149,7 +149,7 @@ const Projects = () => {
                                     the card's content.
                                 </p>
                             </Card.Text>
-                            <Button variant="primary">Detalles</Button>
+                            <Button className = "btn-custom-color">Detalles</Button>
                         </Card.Body>
                     </Card>
                     <Card border="light" className="col-md-10 shadow p-3 mb-5">
@@ -162,7 +162,7 @@ const Projects = () => {
                                     the card's content.
                                 </p>
                             </Card.Text>
-                            <Button variant="primary">Detalles</Button>
+                            <Button className = "btn-custom-color">Detalles</Button>
                         </Card.Body>
                     </Card>
                     <Card border="light" className="col-md-10 shadow p-3 mb-5">
@@ -175,7 +175,7 @@ const Projects = () => {
                                     the card's content.
                                 </p>
                             </Card.Text>
-                            <Button variant="primary">Detalles</Button>
+                            <Button className = "btn-custom-color">Detalles</Button>
                         </Card.Body>
                     </Card>
                 </CardDeck>

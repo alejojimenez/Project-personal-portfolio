@@ -7,7 +7,7 @@ const Skills = () => {
 
     return (
         <>
-            <div className = "color-background shadow-sm p-3 mb-1">
+            <div className = "color-background shadow p-3 mb-3 rounded">
                 {/* Formación, Habilidades y Conocimientos  */}
                 <h2 className = "position-left">Formación</h2>
                 <div className = "linea"></div>
@@ -22,7 +22,7 @@ const Skills = () => {
                                     the card's content.
                                 </p>
                             </Card.Text>
-                            <Button variant="primary">Detalles</Button>
+                            <Button className = "btn-custom-color">Detalles</Button>
                         </Card.Body>
                     </Card>
                     <Card border="light" className="col-md-10 shadow p-3 mb-5">
@@ -35,7 +35,7 @@ const Skills = () => {
                                     the card's content.
                                 </p>
                             </Card.Text>
-                            <Button variant="primary">Detalles</Button>
+                            <Button className = "btn-custom-color">Detalles</Button>
                         </Card.Body>
                     </Card>
                     <Card border="light" className="col-md-10 shadow p-3 mb-5">
@@ -48,7 +48,7 @@ const Skills = () => {
                                     the card's content.
                                 </p>
                             </Card.Text>
-                            <Button variant="primary">Detalles</Button>
+                            <Button className = "btn-custom-color">Detalles</Button>
                         </Card.Body>
                     </Card>
                 </CardDeck>
@@ -66,7 +66,7 @@ const Skills = () => {
                                     the card's content.
                                 </p>
                             </Card.Text>
-                            <Button variant="primary">Download CV</Button>
+                            <Button className = "btn-custom-color">Download CV</Button>
                         </Card.Body>
                     </Card>
                 </CardDeck>

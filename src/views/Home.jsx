@@ -9,7 +9,6 @@ const Home = () => {
         <>
             <NavBarTop />
             {/* <ProjectsCarousel /> */}
-            {/* <Footer /> */}
         </>
 
     )
