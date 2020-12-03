@@ -9,7 +9,7 @@ const Skills = () => {
         <>
             <div className = "color-background shadow-sm p-3 mb-1">
                 {/* Formación, Habilidades y Conocimientos  */}
-                <h2 className = "position-left">Proyectos Educativos</h2>
+                <h2 className = "position-left">Formación</h2>
                 <div className = "linea"></div>
                 <CardDeck>
                     <Card border="light" className="col-md-10 shadow p-3 mb-5">

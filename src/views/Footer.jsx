@@ -1,13 +1,16 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import '../App.css';
 
 function Footer() {
     return (
-    <footer className="sticky-footer py-4 bg-dark text-white-50">
-      <div className="container text-center">
-        <small>Copyright &copy; Your Website 2020</small>
-      </div>
-    </footer>
+      <>
+        <footer className="sticky-footer py-3 text-white" >
+          <Container className="text-center" fluid="lg">
+            <small>Copyright &copy; Built by Alejojimenez 2020</small>
+          </Container>
+        </footer>
+      </>
     )
 }
 

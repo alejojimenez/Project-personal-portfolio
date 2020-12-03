@@ -21,7 +21,7 @@ const App = () => {
           </Col>
         </Row>
         <Switch>
-          <Route exact path = '/quien-soy/' component = {AboutMe} />
+          <Route exact path = '/acerca-de-mi/' component = {AboutMe} />
           <Route exact path = '/proyectos/' component = {Projects} />
           <Route exact path = '/formacion/' component = {Skills} />
           <Route exact path = '/contacto/' component = {Contact} />
