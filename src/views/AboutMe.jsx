@@ -9,7 +9,7 @@ const AboutMe = () => {
     return (
         <>  
         <div id="quien-soy">
-            <Card className="col-md-12 shadow p-3 mb-3 rounded">
+            <Card className="col-md-12 shadow pt-0 pb-3 mb-5 rounded">
                 <Row>
                     <div className = "col-sm-6">
                         <Row>
@@ -29,7 +29,7 @@ const AboutMe = () => {
                                     Haz dado un gran paso, por lo que te hablare un poco más acerca de mí.
                                 </p>
                                 <p>
-                                    Mi nombre, seguramente ya lo conoces. Soy Alexander Jiménez Rengifo y me defino
+                                    Mi nombre, seguramente ya lo conoces. Soy Alexander Jiménez Rengifo. Me defino
                                     como una persona entusiasta, dispuesta a enfrentar nuevos retos.
                                 </p>
                                 <p>
@@ -43,11 +43,11 @@ const AboutMe = () => {
                                 <p>
                                     Por otro lado, quienes me conocen realmente me definen como una persona empática, 
                                     comunicativa, analítica, planificada, comprometida con fuerte orientación hacia el 
-                                    liderazgo y al trabajo en equipo.
+                                    trabajo en equipo.
                                 </p>
                                 {/* <p>
                                     Seguramente veras mi perfil en LinkedIn, bravo por eso.  Tal vez te surjan algunas 
-                                    dudas, aprovechare de dejarte por acá algunos detalles que te pueda ayudar en 
+                                    dudas, aprovechare de dejarte por acá algunos detalles que te puedan ayudar en 
                                     aclararlas. 
                                 </p> */}
                                 <p>
@@ -60,7 +60,7 @@ const AboutMe = () => {
                                 </p> */}
                                 <p>
                                     Para ser sincero, aprendí mucho y también coordine, ejecute y liderice muy buenos
-                                    proyectos, pero decidí volver a mis inicios, esta vez con nuevas y potentes tecnologíascd pasar.
+                                    proyectos, pero decidí volver a mis inicios, esta vez con nuevas y potentes tecnologías.
                                 </p>
                                 <p>
                                     Es por ello que te muestro en este Portafolio, un poco de mis trabajos.  

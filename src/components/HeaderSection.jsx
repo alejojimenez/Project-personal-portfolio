@@ -19,14 +19,12 @@ const styles = {
 }
 
 const HeaderSection = (props) => {
-
     return (
         <div className = "color-background shadow p-3 mb-3 rounded">
             <Row>
                 <Col sm={6} className = "header-position">
                     <Card border="light" className="col-md-12 shadow p-3 mb-5">
                         <Row>
-
                             <Col sm={12}>
                                 <Image src={avatars} alt="Alejo Jimenez" style={styles.cardImage} roundedCircle thumbnail />   
                             </Col>                        

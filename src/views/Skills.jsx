@@ -13,7 +13,7 @@ const Skills = () => {
                 <div className = "linea"></div>
                 <CardDeck>
                     <Card border="light" className="col-md-10 shadow p-3 mb-5">
-                        <Card.Img className = "image-card" variant="top" src="https://servicities.com/blog/wp-content/uploads/2016/05/7-problemas-de-gesti%C3%B3n-empresarial-en-PYMEs.jpg" />
+                        <Card.Img className = "image-card p-0" variant="top" src="https://servicities.com/blog/wp-content/uploads/2016/05/7-problemas-de-gesti%C3%B3n-empresarial-en-PYMEs.jpg" />
                         <Card.Body>
                             <Card.Title>Front - End</Card.Title>
                             <Card.Text>
@@ -26,7 +26,7 @@ const Skills = () => {
                         </Card.Body>
                     </Card>
                     <Card border="light" className="col-md-10 shadow p-3 mb-5">
-                        <Card.Img variant="top" src="https://www.inalde.edu.co/wp-content/uploads/2020/05/imagen-estrategia-empresarial-en-tiempo-de-vodi-19-blog-inalde-business-school.jpg" />
+                        <Card.Img className = "image-card p-0" variant="top" src="https://www.inalde.edu.co/wp-content/uploads/2020/05/imagen-estrategia-empresarial-en-tiempo-de-vodi-19-blog-inalde-business-school.jpg" />
                         <Card.Body>
                             <Card.Title>Back - End</Card.Title>
                             <Card.Text>
@@ -39,7 +39,7 @@ const Skills = () => {
                         </Card.Body>
                     </Card>
                     <Card border="light" className="col-md-10 shadow p-3 mb-5">
-                        <Card.Img variant="top" src="https://servicities.com/blog/wp-content/uploads/2016/05/7-problemas-de-gesti%C3%B3n-empresarial-en-PYMEs.jpg" />
+                        <Card.Img className = "image-card p-0" variant="top" src="https://servicities.com/blog/wp-content/uploads/2016/05/7-problemas-de-gesti%C3%B3n-empresarial-en-PYMEs.jpg" />
                         <Card.Body>
                             <Card.Title>Otros</Card.Title>
                             <Card.Text>

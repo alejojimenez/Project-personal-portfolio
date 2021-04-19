@@ -1,17 +1,19 @@
-import React from 'react';
-import NavBarTop from '../components/NavBarTop';
-// import ProjectsCarousel from '../components/ProjectsCarousel';
-import '../App.css';
+import React from "react";
+import HeaderSection from "../components/HeaderSection";
+
+import "../App.css";
 
 const Home = () => {
-
     return (
         <>
-            <NavBarTop />
-            {/* <ProjectsCarousel /> */}
+            <HeaderSection
+                regars="Hola, yo soy"
+                name="Alexander José Jiménez"
+                title1="  Desarrollador"
+                title2="Full Stack Junior"
+            />
         </>
-
-    )
-}
+    );
+    };
 
 export default Home;

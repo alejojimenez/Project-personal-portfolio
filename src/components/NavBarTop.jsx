@@ -5,10 +5,8 @@ import { Navbar, Nav } from 'react-bootstrap';
 import '../App.css';
 
 // Secciones
-import HeaderSection from './HeaderSection';
 
 const NavBarTop = () => {
-
     return (
         <>  
             <Navbar clasName = "navbar shadow-sm p-2 mb-1 " fixed="top" expand="lg">
@@ -24,12 +22,6 @@ const NavBarTop = () => {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-            <HeaderSection 
-                regars = 'Hola, yo soy' 
-                name = 'Alexander José Jiménez'
-                title1 = '  Desarrollador'
-                title2 = 'Full Stack Junior'
-            />
         </>
     )
 }
